@@ -32,7 +32,7 @@ public class MainApp {
       List<User> users = userService.listUsers();
       System.out.println(users);
 
-      User user = userService.getUserByCar("Car1", 2);
+      User user = userService.getUserByCar("Car2", 2);
       System.out.println(user);
 
 
